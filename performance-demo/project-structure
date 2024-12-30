@@ -1,0 +1,20 @@
+seckill-demo/
+├── src/main/java/com/example/seckill/
+│   ├── SeckillApplication.java
+│   ├── controller/
+│   │   └── SeckillController.java
+│   ├── service/
+│   │   ├── SeckillService.java
+│   │   └── impl/
+│   │       └── SeckillServiceImpl.java
+│   ├── model/
+│   │   ├── Product.java
+│   │   ├── Order.java
+│   │   └── SeckillMessage.java
+│   ├── config/
+│   │   ├── RedisConfig.java
+│   │   └── RabbitMQConfig.java
+│   └── util/
+│       ├── RateLimiter.java
+│       └── DistributedLock.java
+└── pom.xml 
